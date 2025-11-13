@@ -125,17 +125,22 @@
   }
 
   header {
-    padding: 50px 15px;
-  }
+  background: linear-gradient(135deg, var(--gold), #f6e27a);
+  color: var(--white);
+  text-align: center;
+  padding: 35px 15px; /* vorher 80px → jetzt deutlich flacher */
+}
 
-  header h1 {
-    font-size: 1.9em;
-    line-height: 1.3;
-  }
+header h1 {
+  font-size: 2.4em;  /* etwas kleiner, damit es proportional bleibt */
+  margin: 0;
+  letter-spacing: 2px;
+}
 
-  header p {
-    font-size: 1em;
-  }
+header p {
+  font-size: 1.1em;
+  margin-top: 6px;
+}
 
   nav {
     display: flex;
