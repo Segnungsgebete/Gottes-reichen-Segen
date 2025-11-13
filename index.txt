@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="wSF08_8rRooyxKfqyw1KTtyEaf5JHmfrv6okt8sUMVs" />
+  <title>Gottes reichen Segen</title>
+
+  <style>
+    :root {
+      --gold: #d4af37;
+      --white: #ffffff;
+      --black: #000000;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background-color: var(--black);
+      color: var(--white);
+    }
+
+    /* 🔱 HEADER – Pechschwarz mit goldenem Text */
+    header {
+      background-color: var(--black);
+      color: var(--gold);
+      text-align: center;
+      padding: 25px 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      border-bottom: 2px solid var(--white);
+    }
+
+    header .logo {
+      width: 100px;
+      height: auto;
+    }
+
+    header h1 {
+      font-size: 2.2em;
+      margin: 0;
+      letter-spacing: 1.5px;
+      color: var(--gold);
+    }
+
+    header p {
+      font-size: 1em;
+      margin: 5px 0 0 0;
+      color: var(--gold);
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        padding: 18px 8px;
+      }
+
+      header .logo {
+        width: 80px;
+      }
+
+      header h1 {
+        font-size: 1.8em;
+      }
+
+      header p {
+        font-size: 0.9em;
+      }
+    }
+
+    /* 🔳 NAVIGATION – Weißer Balken, schwarze Schrift */
+    nav {
+      background-color: var(--white);
+      text-align: center;
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      color: var(--black);
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* 🕊 BODY-INHALT */
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+      color: var(--white);
+    }
+
+    h2 {
+      color: var(--gold);
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .card, .team-member {
+      background-color: var(--black);
+      border: 2px solid var(--white);
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 600px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.1);
+    }
+
+    .symbol {
+      font-size: 2em;
+      color: var(--gold);
+      margin-bottom: 10px;
+    }
+
+    .team {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .team-member img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid var(--white);
+      margin-bottom: 15px;
+    }
+
+    /* ✝️ FOOTER – Goldener Hintergrund mit schwarzem Text */
+    footer {
+      background-color: var(--gold);
+      color: var(--black);
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: var(--black);
+      text-decoration: underline;
+    }
+
+    /* ✨ Animation beim Scrollen */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 1.2s ease-out, transform 1.2s ease-out;
+    }
+
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🖤 HEADER -->
+  <header>
+    <img src="Gottes reichen Segen/Dokumente/Images/logo-grs.jpg" alt="G.R.S Logo" class="logo">
+    <div>
+      <h1>Gottes reichen Segen</h1>
+      <p>Segnungsgebete & geistliche Begleitung für Herz und Seele</p>
+    </div>
+  </header>
+
+  <!-- ⚪ NAVIGATION -->
+  <nav>
+    <a href="#about">Über uns</a>
+    <a href="#services">Segnungsgebete</a>
+    <a href="#team">Unser Team</a>
+    <a href="#contact">Kontakt</a>
+  </nav>
+
+  <!-- 🤍 INHALT -->
+  <section id="about" class="fade-in">
+    <h2>Über uns</h2>
+    <p>„Gottes reichen Segen“ begleitet Menschen und Unternehmen mit Gebet, Glauben und Zuversicht. 
+       Unsere Segnungsgebete sollen Frieden, Heilung und Hoffnung schenken – in allen Lebensbereichen.</p>
+  </section>
+
+  <section id="services" class="fade-in">
+    <h2>Kostenlose Segnungsgebete</h2>
+
+    <div class="card">
+      <div class="symbol">✝️</div>
+      <h3>Segnungen für Unternehmen</h3>
+      <p>Wir sprechen Segensgebete für Unternehmen, Teams und Arbeitsstätten, 
+         um Harmonie, Vertrauen und göttlichen Beistand zu fördern.</p>
+      <p><strong>Verfügbare Zeit:</strong><br>
+         Mo - Fr: 08:00 – 12:00 und 13:00 – 16:00</p>
+    </div>
+
+    <div class="card">
+      <div class="symbol">🙏</div>
+      <h3>Persönliche Segnungen</h3>
+      <p>Individuelle Gebete für Kraft, Heilung und geistliche Erneuerung</p>
+      <p><strong>Verfügbare Zeit:</strong> Samstag: 13:00 – 17:00</p>
+    </div>
+  </section>
+
+  <section id="team">
+    <h2>Unser Team</h2>
+    <div class="team">
+      <div class="team-member">
+        <img src="Gottes reichen Segen/Dokumente/Images/basil.jpg" alt="Basil Wittwer">
+        <h3>Basil Wittwer</h3>
+        <p><em>Gründer</em></p>
+      </div>
+
+      <div class="team-member">
+        <img src="Gottes reichen Segen/Dokumente/Images/daniel.jpg" alt="Daniel Wittwer">
+        <h3>Daniel Wittwer</h3>
+        <p><em>Gründer</em></p>
+      </div>
+
+      <div class="team-member">
+        <img src="Gottes reichen Segen/Dokumente/Images/jovin.jpg" alt="Jovin Forster">
+        <h3>Jovin Forster</h3>
+        <p><em>Gründer</em></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="fade-in">
+    <h2>Kontakt</h2>
+    <p>Haben Sie Interesse an einem Segnungsgebet oder möchten mehr erfahren?<br>
+       Schreiben Sie uns gerne:</p>
+    <p><strong>E-Mail:</strong> <a href="mailto:daenuwi2@icloud.com" style="color: var(--gold); text-decoration: none;">daenuwi2@icloud.com</a></p>
+    <p><strong>Telefon:</strong> +41 75 416 99 15</p>
+  </section>
+
+  <!-- ✨ FOOTER -->
+  <footer>
+    <p>&copy; 2025 Gottes reichen Segen · Alle Rechte vorbehalten</p>
+    <p>
+      <a href="impressum.html">Impressum</a> · 
+      <a href="datenschutz.html">Datenschutz</a>
+    </p>
+  </footer>
+
+  <script>
+    // Fade-in Animation
+    const fadeEls = document.querySelectorAll('.fade-in');
+    const revealOnScroll = () => {
+      fadeEls.forEach(el => {
+        const rect = el.getBoundingClientRect();
+        if (rect.top < window.innerHeight - 100) el.classList.add('visible');
+      });
+    };
+    window.addEventListener('scroll', revealOnScroll);
+    revealOnScroll();
+  </script>
+
+</body>
+</html>
